@@ -82,14 +82,14 @@ const CarouselComponent = () => {
               <Viewer model="lock3.glb" animation />
             </div>
           </div>
-          {/* <img src="/assets/gramercy.webp" /> */}
+          {/* <img src="assets/gramercy.webp" /> */}
         </div>
         <div className="h-[90vh]">
           {/* <div
             className="w-screen h-full"
             style={{
               backgroundImage:
-                "url(" + "/assets/Baldwin-Reserve-Hero.webp" + " )",
+                "url(" + "assets/Baldwin-Reserve-Hero.webp" + " )",
               backgroundPosition: "center",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
@@ -121,7 +121,7 @@ const CarouselComponent = () => {
               </div>
             </div>
           </div>
-          {/* <img src="/assets/Baldwin-Reserve-Hero.webp" /> */}
+          {/* <img src="assets/Baldwin-Reserve-Hero.webp" /> */}
         </div>
         <div className="h-[90vh]">
           <div className="grid grid-cols-5 w-full h-full bg-gradient-to-r from-[#000000] to-black">
@@ -159,7 +159,7 @@ const CarouselComponent = () => {
               </div>
             </div>
           </div>
-          {/* <img src="/assets/cabinet-hardware-banner-s3.webp" /> */}
+          {/* <img src="assets/cabinet-hardware-banner-s3.webp" /> */}
         </div>
         <div className="h-[90vh]">
           <div className="grid grid-cols-5 w-full h-full bg-gradient-to-r from-[#000000] to-black">
@@ -198,10 +198,10 @@ const CarouselComponent = () => {
             </div>
           </div>
 
-          {/* <img src="/assets/Estate-Quick-Ship-Hero-L029-044_B1.webp" /> */}
+          {/* <img src="assets/Estate-Quick-Ship-Hero-L029-044_B1.webp" /> */}
         </div>
         <div className="h-[90vh]">
-          <img src="/assets/prestige-hero-v2.webp" />
+          <img src="assets/prestige-hero-v2.webp" />
         </div>
       </Carousel>
     </div>

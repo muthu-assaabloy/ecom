@@ -14,9 +14,9 @@ const Explore = () => {
 
   const img = {
     0: [
-      "/assets/Estate-Nav(1).webp",
-      "/assets/Prestige-Nav.webp",
-      "/assets/Reserve-Nav.webp",
+      "assets/Estate-Nav(1).webp",
+      "assets/Prestige-Nav.webp",
+      "assets/Reserve-Nav.webp",
     ],
     1: [],
     2: [],
@@ -75,7 +75,7 @@ const Explore = () => {
                 <div className="h-[1000px] w-[600px] border ">
                   <a href="/">
                     <img
-                      src="/assets/Estate-Nav (1).webp"
+                      src="assets/Estate-Nav (1).webp"
                       alt=""
                       className="h-[700px]"
                     />
@@ -98,7 +98,7 @@ const Explore = () => {
                 <div className="h-[1000px] w-[600px] border ">
                   <a href="/">
                     <img
-                      src="/assets/Prestige-Nav.webp"
+                      src="assets/Prestige-Nav.webp"
                       alt=""
                       className="h-[700px]"
                     />
@@ -121,7 +121,7 @@ const Explore = () => {
                 <div className="h-[1000px] w-[600px] border ">
                   <a href="/">
                     <img
-                      src="/assets/Reserve-Nav.webp"
+                      src="assets/Reserve-Nav.webp"
                       alt=""
                       className="h-[700px]"
                     />

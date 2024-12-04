@@ -156,7 +156,7 @@ const Description = () => {
                     setView360(false);
                   }}
                 >
-                  <img src="/assets/3d-model.png" alt="" />
+                  <img src="assets/3d-model.png" alt="" />
                 </div>
                 <div
                   className="img_wrap"
@@ -166,7 +166,7 @@ const Description = () => {
                     setView3D(false);
                   }}
                 >
-                  <img src="/assets/360-degrees.png" alt="" />
+                  <img src="assets/360-degrees.png" alt="" />
                 </div>
               </div>
               <div className="left_2 border h-full" style={{ width: "150vh" }}>
@@ -229,7 +229,7 @@ const Description = () => {
                     </div>
                     <div className="flex justify-end w-80">
                       <div className="h-20 cursor-pointer mt-2">
-                        <img src="/assets/vr-glasses.png" alt="" />
+                        <img src="assets/vr-glasses.png" alt="" />
                       </div>
                       <div
                         className="h-20 cursor-pointer mt-2"
@@ -237,7 +237,7 @@ const Description = () => {
                           viewerRef.current.taggleQR();
                         }}
                       >
-                        <img src="/assets/augmented-reality.png" alt="" />
+                        <img src="assets/augmented-reality.png" alt="" />
                       </div>
                     </div>
                   </div>

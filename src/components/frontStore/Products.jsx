@@ -162,7 +162,7 @@ const ProductCard = () => {
               <hr className="mt-5" />
               <div className="flex justify-between mt-2">
                 <div className="ml-2 flex">
-                  <img src="/assets/dollar.png" alt="" className="h-8 w-8" />
+                  <img src="assets/dollar.png" alt="" className="h-8 w-8" />
                   <p className="mt-1">{item.price}</p>
                 </div>
                 <div className="mr-5">

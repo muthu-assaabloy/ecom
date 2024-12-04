@@ -23,7 +23,7 @@ const Portfolio = () => {
               <div className="h-[700px] w-[600px] bg-black">
                 <a href="/">
                   {/* <img
-                    src="/assets/ESTATE_Group_B1.webp"
+                    src="assets/ESTATE_Group_B1.webp"
                     alt=""
                     className="h-[680px]"
                   /> */}
@@ -48,7 +48,7 @@ const Portfolio = () => {
                 {" "}
                 <a href="/">
                   {/* <img
-                    src="/assets/PRESTIGE_Group_B1.webp"
+                    src="assets/PRESTIGE_Group_B1.webp"
                     alt=""
                     className="h-[680px]"
                   /> */}
@@ -71,7 +71,7 @@ const Portfolio = () => {
                 {" "}
                 <a href="/">
                   {/* <img
-                    src="/assets/RESERVE_Group_B1_v2.webp"
+                    src="assets/RESERVE_Group_B1_v2.webp"
                     alt=""
                     className="h-[680px]"
                   /> */}
