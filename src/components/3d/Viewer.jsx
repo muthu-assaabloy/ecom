@@ -72,7 +72,7 @@ class Viewer extends PureComponent {
         textureWidth: 512,
         textureHeight: 520,
         waterNormals: new THREE.TextureLoader().load(
-          "textures/waternormals.jpg",
+          "assets/textures/waternormals.jpg",
           function (texture) {
             texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
           }
@@ -107,7 +107,7 @@ class Viewer extends PureComponent {
   loadModel(url) {
     let _this = this;
     new RGBELoader()
-      .setPath("/textures/equirectangular/")
+      .setPath("assets/textures/equirectangular/")
       .load("blouberg_sunrise_2_1k.hdr", (texture) => {
         texture.mapping = THREE.EquirectangularReflectionMapping;
 
@@ -117,7 +117,7 @@ class Viewer extends PureComponent {
           this.scene.remove(this.model);
         }
         // model
-        const loader = new GLTFLoader().setPath(url ? "" : "/models/");
+        const loader = new GLTFLoader().setPath(url ? "" : "assets/models/");
         loader.load(
           this.props.model ? this.props.model : url ? url : "door2.glb",
           (gltf) => {

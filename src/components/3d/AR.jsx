@@ -83,7 +83,7 @@ class AR extends PureComponent {
     //
 
     new RGBELoader()
-      .setPath("/textures/equirectangular/")
+      .setPath("/assets/textures/equirectangular/")
       .load("royal_esplanade_1k.hdr", (texture) => {
         texture.mapping = THREE.EquirectangularReflectionMapping;
 
@@ -128,7 +128,7 @@ class AR extends PureComponent {
     // }
 
     // this.scene.add(ballGroup);
-    const loader = new GLTFLoader().setPath("/models/");
+    const loader = new GLTFLoader().setPath("/assets/models/");
     loader.load("door.glb", (gltf) => {
       const model = gltf.scene;
       //   model.scale.set(0.01, 0.01, 0.01);
@@ -155,7 +155,7 @@ class AR extends PureComponent {
   loadModel() {
     let _this = this;
     new RGBELoader()
-      .setPath("textures/equirectangular/")
+      .setPath("assets/textures/equirectangular/")
       .load("royal_esplanade_1k.hdr", (texture) => {
         texture.mapping = THREE.EquirectangularReflectionMapping;
 
@@ -164,7 +164,7 @@ class AR extends PureComponent {
 
         // model
         _this.animate();
-        const loader = new GLTFLoader().setPath("models/");
+        const loader = new GLTFLoader().setPath("assets/models/");
         loader.load("DamagedHelmet.gltf", (gltf) => {
           const model = gltf.scene;
 
