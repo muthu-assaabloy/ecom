@@ -53,7 +53,7 @@ const ContactUs = () => {
   return (
     // <div
     //   className="h-screen flex items-center justify-center relative overflow-hidden bg-cover bg-center w-96 z-10"
-    //   style={{ backgroundImage: "url('../assets/background.jpg')" }}
+    //   style={{ backgroundImage: "url('/assets/background.jpg')" }}
     // >
     //   <form
     //     className="bg-white bg-opacity-80 rounded-lg p-10 shadow-lg max-w-3xl w-full text-center"

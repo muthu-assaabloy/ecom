@@ -228,7 +228,7 @@ export default LandingPg;
 //       <CarouselComponent />
 
 //       <Parallax
-//         bgImage="../assets/portfolio-bg.jpg" // Replace with your background image
+//         bgImage="/assets/portfolio-bg.jpg" // Replace with your background image
 //         strength={300}
 //       >
 //         <section
@@ -240,7 +240,7 @@ export default LandingPg;
 //       </Parallax>
 
 //       <Parallax
-//         bgImage="../assets/video-bg.jpg" // Replace with your background image
+//         bgImage="/assets/video-bg.jpg" // Replace with your background image
 //         strength={300}
 //       >
 //         <section
@@ -252,7 +252,7 @@ export default LandingPg;
 //       </Parallax>
 
 //       <Parallax
-//         bgImage="../assets/showcases-bg.jpg" // Replace with your background image
+//         bgImage="/assets/showcases-bg.jpg" // Replace with your background image
 //         strength={300}
 //       >
 //         <section

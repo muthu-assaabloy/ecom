@@ -30,7 +30,7 @@ const Navbar = ({ path }) => {
     >
       <div>
         <div>
-          <img src="../assets/logo.png" alt="" className="h-30 w-30" />
+          <img src="/assets/logo.png" alt="" className="h-30 w-30" />
         </div>
       </div>
       <div

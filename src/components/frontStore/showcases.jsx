@@ -4,16 +4,16 @@ const Showcases = () => {
       <div className="flex gap-50  h-[50%] mr-50 mb-60">
         <div className="grid grid-cols-2 grid-rows-2 gap-0">
           <div className="left-0 h-[150px]">
-            <img src="../assets/house1.webp" alt="" />
+            <img src="/assets/house1.webp" alt="" />
           </div>
           <div className="left-0 right-0 h-[465px]">
-            <img src="../assets/house2.webp" alt="" width={"100%"} />
+            <img src="/assets/house2.webp" alt="" width={"100%"} />
           </div>
           <div className="left-0 right-0 h-[100px]">
-            <img src="../assets/house3.webp" alt="" width={"100%"} />
+            <img src="/assets/house3.webp" alt="" width={"100%"} />
           </div>
           <div className="left-0 right-0 h-[100px]">
-            <img src="../assets/house4.webp" alt="" />
+            <img src="/assets/house4.webp" alt="" />
           </div>
         </div>
         <div className="text-center text-black-2">

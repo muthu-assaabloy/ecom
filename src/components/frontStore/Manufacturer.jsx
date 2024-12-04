@@ -28,7 +28,7 @@ const Manufacturer = () => {
             }}
           >
             <img
-              src="../assets/opened-door-aperture.png"
+              src="/assets/opened-door-aperture.png"
               alt=""
               className="h-40 w-40 items-center mt-4 ml-14"
             />

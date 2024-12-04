@@ -16,7 +16,7 @@ const VideoSection = () => {
             <div className="h-[700px] w-[550px] bg-fuchsia-100 animate-fade-up">
               <a href="https://www.youtube.com/watch?v=nmuqDxS2YYs">
                 <img
-                  src="../assets/vdo1.webp"
+                  src="/assets/vdo1.webp"
                   alt=""
                   className="h-[700px] object-cover"
                 />
@@ -28,7 +28,7 @@ const VideoSection = () => {
             <div className="h-[700px] w-[550px] bg-fuchsia-100 animate-fade-up-delay-1">
               <a href="https://www.youtube.com/watch?v=8cjG1ydDC-U">
                 <img
-                  src="../assets/vdo2.webp"
+                  src="/assets/vdo2.webp"
                   alt=""
                   className="h-[700px] object-cover"
                 />
@@ -40,7 +40,7 @@ const VideoSection = () => {
             <div className="h-[700px] w-[550px] bg-fuchsia-100 animate-fade-up-delay-2">
               <a href="https://www.youtube.com/watch?v=RKeO9d89rRI">
                 <img
-                  src="../assets/vdo3.webp"
+                  src="/assets/vdo3.webp"
                   alt=""
                   className="h-[700px] object-cover"
                 />

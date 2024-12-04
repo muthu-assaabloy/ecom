@@ -229,7 +229,7 @@ const Description = () => {
                     </div>
                     <div className="flex justify-end w-80">
                       <div className="h-20 cursor-pointer mt-2">
-                        <img src="../assets/vr-glasses.png" alt="" />
+                        <img src="/assets/vr-glasses.png" alt="" />
                       </div>
                       <div
                         className="h-20 cursor-pointer mt-2"
@@ -237,7 +237,7 @@ const Description = () => {
                           viewerRef.current.taggleQR();
                         }}
                       >
-                        <img src="../assets/augmented-reality.png" alt="" />
+                        <img src="/assets/augmented-reality.png" alt="" />
                       </div>
                     </div>
                   </div>
