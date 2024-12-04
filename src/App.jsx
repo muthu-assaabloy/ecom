@@ -14,6 +14,7 @@ import Navbar from "./components/frontStore/Navbar";
 import LandingPg from "./components/frontStore/LandingPg";
 import ProductCard from "./components/frontStore/Products";
 import Description from "./components/frontStore/Description";
+import IFrameViewer from "./components/3d/IFrameViewer";
 
 function App() {
   return (
@@ -51,7 +52,7 @@ function App() {
             <LandingPg path="/contact" />
           </Route>
           <Route path="/">
-            <LandingPg path="/" />
+            <IFrameViewer path="/" />
           </Route>
         </Switch>
       </Router>
