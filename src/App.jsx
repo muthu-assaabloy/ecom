@@ -19,11 +19,14 @@ import IFrameViewer from "./components/3d/IFrameViewer";
 function App() {
   return (
     <ContextApiProvider>
-      {!window.location.pathname.includes("/ar/") && <Navbar />}
+      {/* {!window.location.pathname.includes("/ar/") && <Navbar />} */}
 
       <Router>
         <Switch>
-          <Route path="/description/:id">
+          <Route path="/">
+            <IFrameViewer path="/" />
+          </Route>
+          {/* <Route path="/description/:id">
             <Description />
           </Route>
           <Route path="/admin/products">
@@ -50,10 +53,7 @@ function App() {
           </Route>
           <Route path="/contact">
             <LandingPg path="/contact" />
-          </Route>
-          <Route path="/">
-            <IFrameViewer path="/" />
-          </Route>
+          </Route> */}
         </Switch>
       </Router>
     </ContextApiProvider>
