@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.76184336.css",
-    "main.js": "/static/js/main.e7ce07b4.js",
+    "main.css": "/static/css/main.2e1047a0.css",
+    "main.js": "/static/js/main.01ec30d8.js",
     "static/js/453.53f82f20.chunk.js": "/static/js/453.53f82f20.chunk.js",
     "static/media/Satoshi-MediumItalic.ttf": "/static/media/Satoshi-MediumItalic.5db9ec801a311bdf187b.ttf",
     "static/media/Satoshi-Italic.ttf": "/static/media/Satoshi-Italic.89c785539a22fa0dfa0f.ttf",
@@ -47,12 +47,12 @@
     "static/media/brand-04.svg": "/static/media/brand-04.902681cfc53a92af3574d1ec680262ce.svg",
     "static/media/brand-05.svg": "/static/media/brand-05.b952f2c0fa717eef80d41f6b33b82ab6.svg",
     "static/media/icon-arrow-down.svg": "/static/media/icon-arrow-down.99885b26df35a3b66411.svg",
-    "main.76184336.css.map": "/static/css/main.76184336.css.map",
-    "main.e7ce07b4.js.map": "/static/js/main.e7ce07b4.js.map",
+    "main.2e1047a0.css.map": "/static/css/main.2e1047a0.css.map",
+    "main.01ec30d8.js.map": "/static/js/main.01ec30d8.js.map",
     "453.53f82f20.chunk.js.map": "/static/js/453.53f82f20.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.76184336.css",
-    "static/js/main.e7ce07b4.js"
+    "static/css/main.2e1047a0.css",
+    "static/js/main.01ec30d8.js"
   ]
 }
