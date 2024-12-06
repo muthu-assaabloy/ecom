@@ -10,6 +10,7 @@ import { createLable } from "./MeshUtils";
 import QRCode from "react-qr-code";
 import { Water } from "three/addons/objects/Water.js";
 import { Sky } from "three/addons/objects/Sky.js";
+import { Triangle } from "react-loader-spinner";
 
 class Viewer extends PureComponent {
   static contextType = ContextApi;
@@ -21,6 +22,7 @@ class Viewer extends PureComponent {
       top: "",
       left: "",
       showQR: false,
+      isLoading: true,
     };
     this.animate = this.animate.bind(this);
     this.mouseMove = this.mouseMove.bind(this);
@@ -105,6 +107,7 @@ class Viewer extends PureComponent {
   }
   LoadFile(url) {}
   loadModel(url) {
+    this.setState({ isLoading: true });
     let _this = this;
     new RGBELoader()
       .setPath("assets/textures/equirectangular/")
@@ -175,6 +178,7 @@ class Viewer extends PureComponent {
                 this.model.position.z + 15
               );
             }
+            this.setState({ isLoading: false });
             // this.UpdateDoorColor(0xff0000);
 
             // this.renderer
@@ -280,10 +284,37 @@ class Viewer extends PureComponent {
     this.setState({ showQR: !showQR });
   }
   render() {
-    const { hoveredInfo, top, left, showQR } = this.state;
+    const { hoveredInfo, top, left, showQR, isLoading } = this.state;
     return (
       <div className="bg-gray-200 h-full w-full">
         <div className="w-full h-full pb-2 ">
+          {isLoading && (
+            <div
+              className="h-full w-full flex flex-col"
+              style={{
+                position: "fixed",
+                top: 0,
+                left: 0,
+
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                backgroundColor: "rgba(255, 255, 255, 0.8)", // Optional for a dimmed background
+                zIndex: 9999,
+              }}
+            >
+              <Triangle
+                visible={true}
+                height="inherit"
+                width="inherit"
+                color="#4fa94d"
+                ariaLabel="triangle-loading"
+                // wrapperStyle={{ height: "100vh", width: "100vw" }}
+                wrapperClass=""
+              />
+              <p className="text-3xl font-bold pt-4">Loading...</p>
+            </div>
+          )}
           <div
             className="bg-gray-200"
             ref={this.canvasContainer}

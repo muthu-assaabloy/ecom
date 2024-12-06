@@ -10,13 +10,15 @@ import { ARButton } from "three/addons/webxr/ARButton.js";
 import { XREstimatedLight } from "three/addons/webxr/XREstimatedLight.js";
 import { withRouter } from "react-router-dom/cjs/react-router-dom.min";
 import Viewer from "./Viewer";
+import { Triangle } from "react-loader-spinner";
+import { width } from "@mui/system";
 class IFrameViewer extends PureComponent {
   static contextType = ContextApi;
   constructor(props) {
     super(props);
     this.state = {
       CanvasID: "webglCanvas",
-      show3d: true,
+      isLoading: true,
       modelUrl: "lock5.glb",
     };
     // this.animate = this.animate.bind(this);
@@ -31,7 +33,7 @@ class IFrameViewer extends PureComponent {
   }
 
   render() {
-    const { show3d, modelUrl } = this.state;
+    const { isLoading, modelUrl } = this.state;
     return (
       <div className="bg-gray-200 h-[100dvh] w-full" id="viewer3d">
         {/* <div id="info">
@@ -53,6 +55,33 @@ class IFrameViewer extends PureComponent {
         )} */}
 
         <div className="w-full h-full pb-2 bg-sky-100">
+          {isLoading && (
+            <div
+              className="h-full w-full flex flex-col"
+              style={{
+                position: "fixed",
+                top: 0,
+                left: 0,
+
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                backgroundColor: "rgba(255, 255, 255, 0.8)", // Optional for a dimmed background
+                zIndex: 9999,
+              }}
+            >
+              <Triangle
+                visible={true}
+                height="inherit"
+                width="inherit"
+                color="#4fa94d"
+                ariaLabel="triangle-loading"
+                // wrapperStyle={{ height: "100vh", width: "100vw" }}
+                wrapperClass=""
+              />
+              <p className="text-3xl font-bold pt-4">Loading...</p>
+            </div>
+          )}
           <Viewer model={modelUrl} animation={false} />
         </div>
       </div>
