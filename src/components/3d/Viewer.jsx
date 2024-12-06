@@ -306,8 +306,8 @@ class Viewer extends PureComponent {
             >
               <Triangle
                 visible={true}
-                height="inherit"
-                width="inherit"
+                height="200"
+                width="200"
                 color="#4fa94d"
                 ariaLabel="triangle-loading"
                 // wrapperStyle={{ height: "100vh", width: "100vw" }}
