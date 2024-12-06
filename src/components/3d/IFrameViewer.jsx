@@ -55,33 +55,6 @@ class IFrameViewer extends PureComponent {
         )} */}
 
         <div className="w-full h-full pb-2 bg-sky-100">
-          {isLoading && (
-            <div
-              className="h-full w-full flex flex-col"
-              style={{
-                position: "fixed",
-                top: 0,
-                left: 0,
-
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                backgroundColor: "rgba(255, 255, 255, 0.8)", // Optional for a dimmed background
-                zIndex: 9999,
-              }}
-            >
-              <Triangle
-                visible={true}
-                height="inherit"
-                width="inherit"
-                color="#4fa94d"
-                ariaLabel="triangle-loading"
-                // wrapperStyle={{ height: "100vh", width: "100vw" }}
-                wrapperClass=""
-              />
-              <p className="text-3xl font-bold pt-4">Loading...</p>
-            </div>
-          )}
           <Viewer model={modelUrl} animation={false} />
         </div>
       </div>

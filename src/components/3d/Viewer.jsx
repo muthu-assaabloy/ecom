@@ -129,6 +129,7 @@ class Viewer extends PureComponent {
 
             // wait until the model can be added to the scene without blocking due to shader compilation
             this.scene.add(this.model);
+            this.setState({ isLoading: false });
             // this.UpdateWidthHeight(7, 6);
             let addedInfo = [];
             if (!this.props.autoRotate) {
@@ -178,7 +179,7 @@ class Viewer extends PureComponent {
                 this.model.position.z + 15
               );
             }
-            this.setState({ isLoading: false });
+
             // this.UpdateDoorColor(0xff0000);
 
             // this.renderer
