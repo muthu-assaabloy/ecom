@@ -60,13 +60,16 @@ class IFrameViewer extends PureComponent {
                 ].map((item) => (
                   <>
                     {" "}
-                    <div className="bg-gray-100 shadow-2xl border-red-200 rounded-xl flex px-4 flex-row ">
-                      <iframe
-                        src={`https://muthu-assaabloy.github.io/ecom/?model=${item}`}
-                        height="200px"
-                        title="3D Viewer"
-                      ></iframe>
-                      <p className="flex  content-center text-center items-center bg-black text-white">{`<iframe  src="https://muthu-assaabloy.github.io/ecom/?model=${item}"
+                    <div className="shadow-2xl border-red-200  flex pr-4 flex-row bg-black">
+                      <div className="bg-gray-100 ">
+                        <iframe
+                          src={`https://muthu-assaabloy.github.io/ecom/?model=${item}`}
+                          height="200px"
+                          title="3D Viewer"
+                        ></iframe>
+                      </div>
+
+                      <p className="flex pl-6  content-center text-center items-center bg-black text-white">{`<iframe  src="https://muthu-assaabloy.github.io/ecom/?model=${item}"
                   title="3D Viewer"
                   width="500px"
                   height="500px"></iframe>`}</p>
