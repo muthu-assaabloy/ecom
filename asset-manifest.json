@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ecom/static/css/main.2bba891d.css",
-    "main.js": "/ecom/static/js/main.7307259d.js",
+    "main.js": "/ecom/static/js/main.dad80127.js",
     "static/js/453.53f82f20.chunk.js": "/ecom/static/js/453.53f82f20.chunk.js",
     "static/media/Satoshi-MediumItalic.ttf": "/ecom/static/media/Satoshi-MediumItalic.5db9ec801a311bdf187b.ttf",
     "static/media/Satoshi-Italic.ttf": "/ecom/static/media/Satoshi-Italic.89c785539a22fa0dfa0f.ttf",
@@ -48,11 +48,11 @@
     "static/media/brand-05.svg": "/ecom/static/media/brand-05.b952f2c0fa717eef80d41f6b33b82ab6.svg",
     "static/media/icon-arrow-down.svg": "/ecom/static/media/icon-arrow-down.99885b26df35a3b66411.svg",
     "main.2bba891d.css.map": "/ecom/static/css/main.2bba891d.css.map",
-    "main.7307259d.js.map": "/ecom/static/js/main.7307259d.js.map",
+    "main.dad80127.js.map": "/ecom/static/js/main.dad80127.js.map",
     "453.53f82f20.chunk.js.map": "/ecom/static/js/453.53f82f20.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2bba891d.css",
-    "static/js/main.7307259d.js"
+    "static/js/main.dad80127.js"
   ]
 }
